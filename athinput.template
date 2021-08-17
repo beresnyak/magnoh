@@ -1,0 +1,65 @@
+<comment>
+problem = Mag Noh
+author  = Beresnyak
+reference = 
+# config  =  --prob=magnoh --coord=cylindrical --flux hlld -b
+
+<job>
+problem_id=magnoh    # problem ID: basename of output filenames
+#maxout          = 4         # Output blocks number from 1 -> maxout
+#num_domains     = 1         # number of Domains in Mesh
+
+<output1>
+file_type  = hst       # History data dump
+dt         = 5e-11     # time increment between outputs
+
+<output2>
+file_type = tab               # Binary data dump
+dt        = 3e-8               # time increment between outputs
+variable  = prim              # output primitive variables
+
+<time>
+cfl_number = 0.45       # The Courant, Friedrichs, & Lewy (CFL) Number
+nlim       = -1   # cycle limit
+tlim       = 3e-8      # time limit
+xorder     = 1         # order of spatial reconstruction
+ncycle_out = 1000         # interval for stdout summary info
+
+<mesh>
+nx1        = 2000     # Number of zones in X-direction
+x1min      =  1.25e-4      # minimum value of X
+x1max      =  8.0    # maximum value of X
+ix1_bc     = reflecting  # inner-I (X) boundary flag
+ox1_bc     = outflow  # outer-I (X) boundary flag
+
+nx2        = 1       # Number of zones in Y-direction
+x2min      = -3.14159265359      # minimum value of Y
+x2max      =  3.14159265359      # maximum value of Y
+ix2_bc     = periodic  # inner-J (Y) boundary flag
+ox2_bc     = periodic  # outer-J (Y) boundary flag
+
+nx3        = 1         # Number of zones in X3-direction
+x3min      = -1.0      # minimum value of X3
+x3max      = 1.0       # maximum value of X3
+ix3_bc     = periodic  # inner-J (Y) boundary flag
+ox3_bc     = periodic  # outer-J (Y) boundary flag
+
+<meshblock>
+nx1        = 500        # Number of zones in X1-direction
+nx2        = 1        # Number of zones in X2-direction
+nx3        = 1        # Number of zones in X3-direction
+
+<hydro>
+gamma=g1111         # gamma = C_p/C_v
+
+<problem>
+alpha=a1111
+beta=b1111
+pcoeff=p1111
+d=d1111
+vr=v1111
+vphi=0
+bphi=b1111
+bz=b2222
+
+
