@@ -8,6 +8,8 @@ Requirements:
 
 To reproduce figures from the paper, run:
 
+mkdir solutions
+
 Fig 2 bottom
 
 python3 ./verify_new.py 1.5 1.66667 1e5 1e5 6e-5
