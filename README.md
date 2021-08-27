@@ -10,6 +10,8 @@ To compile Athena for verification purposes, use magnoh.cpp from this directory.
 
 To compile Athena for stability analysis, use magnoh_cyl2.cpp
 
+To see the options use --help or -h option of python scripts
+
 To reproduce figures from the paper, have "athena" executable in the same directory as the python script and run:
 
 mkdir solutions
@@ -32,4 +34,4 @@ asympt.py 1.5 1.2 1 1 0.6 --u0max=100
 Initial pressure example:
 verify.py 1.5 1.66667 1e5 1e5 6e-5 --beta=20
 
-The figures will be generated in the "solutions" subdirectory.
+The figures and the text file with tabulated solutions will be generated in the "solutions" subdirectory.
