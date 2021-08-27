@@ -3,9 +3,29 @@
 // Copyright(C) 2014 James M. Stone <jmstone@princeton.edu> and other code contributors
 // Licensed under the 3-clause BSD License, see LICENSE file for details
 /*============================================================================*/
-/*! \file magnoh_cyl.cpp -- with many domains in phi
-    \brief Magnetized Noh with perturbation in B_phi
-    A. Beresnyak */
+//! \file magnoh_cyl2.cpp
+//! \brief Magnetized Noh with many domains in phi. Authored by A. Beresnyak
+//!
+//! 2D collapse on center, r distance to center
+//! initial conditions with r in cm:
+//! rho  = rho0*r^alpha [g/cm^3]
+//! Vr    = V0r         [cm/s]
+//! Vphi  = V0phi       [cm/s]
+//! Bphi = Bphi0*r^beta   [gauss] azimuthal
+//! Bz   = Bz0*  r^beta   [gauss] axial
+//! pressure = 1.E-6*B^2   actually zero in the exact solution
+//!
+//! Can apply sine wave perturbation in a form
+//!   \f$ (1+perturb*std::cos(mphi*phi)) \f$ to the magnetic potential Az
+//!
+//! REFERENCES:
+//! 1) Velikovich, Giuliani, Zalesak, Gardiner, "Exact self-similar solutions for the
+//! magnetized Noh Z pinch problem", Phys. of Plasmas, vol.19, p.012707 (2012)
+//!
+//! 2) Beresnyak, Velikovich, Giuliani, Dasgupta,
+//! "Stable and unstable supersonic stagnation of an axisymmetric rotating magnetized plasma",
+//! JFM, subm (2021)
+
 /*============================================================================*/
 
 // Athena++ headers
