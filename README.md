@@ -1,6 +1,6 @@
 # NRL MAG NOH PROBLEM 
 
-This is supplementary code for the JFM paper "Stable and unstable supersonic stagnation of an axisymmetric rotating magnetized plasma"
+This is supplementary code for the paper "Stable and unstable supersonic stagnation of an axisymmetric rotating magnetized plasma" by Andrey Beresnyak, Alexander L. Velikovich, John L. Giuliani, and Arati Dasgupta, which is currently in review by JFM. If you want to cite the code, use the citation above.
 
 Requirements:
 1) for generating self-similar solutions - Python (preferably with numba)
