@@ -1,0 +1,1 @@
+Rotating solution with Vphi/Vr=20, chi=1.5, gamma=5/3, M_A=3.24 and Bz/Bphi=0.3 perturbed by 2x10^-2 in Br-Bphi upstream.
