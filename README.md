@@ -35,3 +35,6 @@ Initial pressure example:
 verify.py 1.5 1.66667 1e5 1e5 6e-5 --beta=20
 
 The figures and the text file with tabulated solutions will be generated in the "solutions" subdirectory.
+
+Rotating perturbed solution:
+![rotating perturbed](https://github.com/beresnyak/magnoh/blob/main/examples/rotating_perturbed1.png)
