@@ -50,4 +50,7 @@ Rotating perturbed solution:
 
 
 Layman's introduction of what 'self-similar' means:
-![self-similar plot](https://github.com/beresnyak/magnoh/blob/main/examples/ss_plot.png)
+
+
+<img src="https://github.com/beresnyak/magnoh/blob/main/examples/ss_plot.png" width="600" style="float:center">
+
