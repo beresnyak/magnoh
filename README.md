@@ -46,3 +46,8 @@ The figures and the text file with tabulated solutions will be generated in the 
 
 Rotating perturbed solution:
 ![rotating perturbed](https://github.com/beresnyak/magnoh/blob/main/examples/rotating_perturbed1.png)
+
+
+
+Layman's introduction of what 'self-similar' means:
+![self-similar plot](https://github.com/beresnyak/magnoh/blob/main/examples/ss_plot.png)
