@@ -52,5 +52,5 @@ Rotating perturbed solution:
 Layman's introduction of what 'self-similar' means:
 
 
-<img src="https://github.com/beresnyak/magnoh/blob/main/examples/ss_plot.png" width="600" style="float:center">
+<img src="https://github.com/beresnyak/magnoh/blob/main/examples/ss_plot.png" width="480" style="float:center">
 
